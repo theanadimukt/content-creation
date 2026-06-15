@@ -2,15 +2,17 @@
 
 ## Purpose
 Generate a new batch of hook variants when all three from write-script missed.
-Use only when none of the write-script variants are usable.
+Use only when none of the current hooks are usable.
 
 ## Input required
-- Path to episode's script.md
+- Path to episode directory
+- Platform: YouTube or Instagram (or both)
 - Which variant was closest and why it didn't land
 
 ## Output
-Update the ## Hooks section in the existing script.md in place.
-Do not touch any other section.
+- YouTube hooks → update `## Hooks` section in youtube.md in place
+- Instagram hooks → update `## Hooks` section in instagram.md in place
+- Do not touch any other section or file
 
 ## Hook formulas — rotate, pick strongest fit
 1. Contradiction: "Most developers think X. I did Y. Here is what happened."
@@ -24,4 +26,5 @@ Do not touch any other section.
 - Instagram hook: max 15 words, must work as silent text overlay
 - Never start with "In this video..." or "Hey guys" or "Welcome back"
 - No question hooks — statements perform better for this niche
-- Generate 3 variants for each platform, let user pick
+- Generate 3 variants, let user pick
+- Use a different formula for each variant — no two hooks same approach
