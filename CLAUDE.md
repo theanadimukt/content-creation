@@ -1,10 +1,11 @@
 # Content Creation Workspace
 
 ## Who I am
-Solo developer building a micro-SaaS in public. My content documents
+Indian software developer living in the UK, building a micro-SaaS in public. My content documents
 my real journey — idea → requirements → AI-assisted build → launch.
 Audience: developers, indie hackers, people curious about building with AI.
 Tone: honest, direct, no fluff, slightly technical but accessible.
+English is my second language. Scripts must be simple, spoken, easy to deliver on camera — short sentences, no jargon, conversational.
 
 ## Workflow
 One recording per episode. Same raw footage → YouTube full cut + Instagram Reel cut.
@@ -38,13 +39,14 @@ _templates/             → reusable skill templates
 
 ### youtube.md
 Two H2 sections in order:
-1. `## Script` — full 1,500–1,800 word recording script with scene directions
+1. `## Script` — full 1,500–1,800 word spoken English script with scene directions
 2. `## Hooks` — 3 YouTube hook variants (75 words max each)
 
 ### instagram.md
-Two H2 sections in order:
+Three H2 sections in order:
 1. `## Hooks` — 3 Instagram hook variants (15 words max, silent-video safe)
-2. `## Reel cut guide` — which moment to clip + reel structure + CTA
+2. `## Reel Script` — full standalone 45–60s spoken reel script (recordable without YouTube footage)
+3. `## Reel cut guide` — which moment to clip from YouTube + reel structure + CTA
 
 ### thumbnail.md
 Two H2 sections in order:
@@ -64,7 +66,7 @@ Always load the relevant skill before starting any content task.
 Manual for now. No external API calls.
 
 ## Output rules
-- write-script generates all four files: youtube.md, instagram.md, thumbnail.md, x-post.md
+- write-script generates four files: youtube.md + instagram.md + thumbnail.md + x-post.md
 - Create episode directory if it does not exist
 - Never output only to terminal — always write the files
 

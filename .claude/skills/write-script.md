@@ -14,6 +14,46 @@ Save four files to: episodes/YYYY-MM-DD-[slug]/
 Create the episode directory if it does not exist.
 Never output only to terminal — always write all four files.
 
+Files to generate every run:
+1. youtube.md — spoken English script
+2. instagram.md — hooks + full reel script + reel cut guide
+3. thumbnail.md — YouTube thumbnail + Instagram reel cover briefs
+4. x-post.md — single tweet + thread
+
+---
+
+## Script writing rules (apply to all scripts)
+
+The creator is an Indian software developer living in the UK. English is their second language. They understand English well but sometimes struggle with fluency and vocabulary while speaking. They are building confidence on camera. The audience should feel like they are talking to a normal person, not an influencer.
+
+1. Use simple British English
+2. Use short sentences
+3. Avoid advanced vocabulary
+4. Avoid corporate jargon
+5. Avoid motivational clichés
+6. Write exactly how a normal person would speak
+7. Include natural pauses (use "..." or `[pause]` inline)
+8. Use conversational language
+9. Make the script easy to remember
+10. Keep grammar correct but not overly formal
+11. Do not try to sound like a native speaker
+12. Do not use words that most English learners wouldn't know
+13. Keep the tone honest, reflective and personal
+14. Use personal stories whenever possible
+15. If a sentence is difficult to pronounce, simplify it
+
+### Script structure (every script)
+1. Hook (5–10 seconds)
+2. Personal story
+3. Lesson learned
+4. Practical takeaway
+5. Simple ending
+
+### Every script must include
+- Full script
+- Bullet point version
+- Estimated speaking time
+
 ---
 
 ## File 1: youtube.md
@@ -226,7 +266,10 @@ Date: YYYY-MM-DD
 
 ## Tone rules (all files)
 - First person. Past tense for what happened, present tense for lessons
-- No corporate language, no filler phrases
-- Short sentences. One idea per paragraph
+- Simple British English. Short sentences. One idea per sentence
+- No advanced vocabulary. No corporate jargon. No motivational clichés
 - Technical terms are fine — briefly explain each once
-- Sound like a developer talking to another developer, not a YouTuber performing
+- No essay transitions ("Furthermore", "In conclusion", "As we can see") — real people don't talk like that
+- Honest, reflective, personal. Use personal stories whenever possible
+- If a sentence would be hard to say out loud, simplify it
+
