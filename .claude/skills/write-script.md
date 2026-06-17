@@ -41,6 +41,7 @@ The creator is an Indian software developer living in the UK. English is their s
 13. Keep the tone honest, reflective and personal
 14. Use personal stories whenever possible
 15. If a sentence is difficult to pronounce, simplify it
+16. Explain like talking to a kid — if a 10-year-old wouldn't follow it, simplify further
 
 ### Script structure (every script)
 1. Hook (5–10 seconds)

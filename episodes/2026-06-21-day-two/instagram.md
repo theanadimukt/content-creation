@@ -1,5 +1,5 @@
-# Episode 1: Day Zero — I'm Building Something. I Don't Know What Yet. — Instagram
-Date: 2026-06-13
+# Episode 1: Day One — Instagram
+Date: 2026-06-21
 Format: Instagram Reel (45–60 sec cut)
 
 ---
@@ -7,52 +7,59 @@ Format: Instagram Reel (45–60 sec cut)
 ## Hooks
 
 **Hook — Option A** (max 15 words, silent-video safe):
-Building a micro-SaaS in public. No idea yet. Starting anyway.
+I am building a micro-SaaS in public. No idea yet. Starting anyway.
 
 **Hook — Option B** (max 15 words, silent-video safe):
-Most developers wait until they're ready. I'm not waiting.
+I moved to the UK to build a better life. This is next.
 
 **Hook — Option C** (max 15 words, silent-video safe):
-Day zero. No idea. No plan. The decision is enough.
+Day one. No idea. No plan. Just the decision to start.
 
 ---
 
 ## Reel Script
 
-> **Production note:** Standalone reel — does NOT depend on YouTube footage. Record this separately to camera, fast confident pace. Each line = one beat or one cut. Speak clearly for auto-captions. Total target: 45–60 seconds.
+> **Production note:** Standalone reel. Record separately to camera. One idea per line. Short pauses between lines. Speak clearly and calmly. Total target: 45–60 seconds.
 
 ---
 
 **[TEXT OVERLAY — hook frame, white bold on dark bg, holds 2.5s]**
-"Building a micro-SaaS in public. No idea yet. Starting anyway."
+"I am building a micro-SaaS in public. No idea yet. Starting anyway."
 
-**[CUT TO — talking head, direct, no smile]**
+**[CUT TO — talking head, calm, direct]**
 
-Most developers wait until they have it figured out.
+I have been a developer for years.
 
-I'm starting before I have the idea.
+I have never built anything that made me money.
 
-I decided to build a micro-SaaS in public — documenting everything from day zero.
+Not one thing.
 
-**[TEXT OVERLAY — 2s]**
-"The confusion is the content."
+**[pause]**
+
+I moved from India to the UK in 2021.
+
+I have a good job. A family. Life is going well.
+
+But I always wanted to build something of my own.
+
+**[TEXT OVERLAY — holds 2s]**
+"Commit to the process. Not the idea."
 
 **[CUT TO — talking head]**
 
-The part nobody puts on camera is the beginning.
+Most people wait until they have it figured out.
 
-When you don't know what you're building. Or who it's for.
+I am starting before I have the idea.
 
-That's the part I'm filming.
+Because the beginning — the messy, confused part — that is the part nobody films.
 
-**[TEXT OVERLAY — 2s]**
-"Commit to the process. Not the idea."
+I am filming it.
 
-**[CUT TO — talking head, lean in slightly]**
+**[CUT TO — lean in slightly]**
 
 If you want to watch someone figure this out in real time — follow.
 
-Next episode: I pick the idea.
+Next episode: I pick the direction.
 
 **[TEXT OVERLAY — final frame, holds 2s]**
 "Building in Public — EP 01"
@@ -61,9 +68,9 @@ Next episode: I pick the idea.
 
 ## Reel cut guide
 
-- **Clip:** Section 5 close + TEXT OVERLAY moment — "The confusion is the content" — then cut straight to CTA
-- **Why this moment:** strongest emotional punch in the episode; works without context from earlier sections; text overlay makes it work silent
-- **Opening line on screen:** "Building a micro-SaaS in public. No idea yet. Starting anyway." (Hook Option A)
-- **Reel structure:** hook text overlay (3s) → talking head from Section 5 (~30s) → "The confusion is the content" overlay (2.5s) → CTA spoken to camera (~10s)
+- **Clip:** Personal story section + "Commit to the process" overlay — from the moment "I moved from India to the UK in 2021" through to end of Section 1
+- **Why this moment:** personal and relatable. Developer who never shipped. India → UK angle adds real authenticity. Works without any context from the full video
+- **Opening line on screen:** "I am building a micro-SaaS in public. No idea yet. Starting anyway." (Hook Option A)
+- **Reel structure:** hook text overlay (2.5s) → talking head personal story (~35s) → "Commit to the process" overlay (2s) → spoken CTA (~8s)
 - **Target length:** 45–60 seconds
 - **CTA at end:** spoken — "Follow if you want to watch this in real time"
