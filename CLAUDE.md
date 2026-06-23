@@ -7,7 +7,9 @@ Audience: developers, indie hackers, people curious about building with AI.
 Tone: honest, direct, no fluff, slightly technical but accessible.
 English is my second language. Scripts must be simple, spoken, easy to deliver on camera — short sentences, no jargon, conversational.
 
-## Workflow
+## Workspace model
+Each episode is a self-contained production folder. Scripts, raw footage, audio, images, and exports all live under one slug directory. Nothing for a given video lives outside its folder.
+
 One recording per episode. Same raw footage → YouTube full cut + Instagram Reel cut.
 Each platform has its own output file. No single monolithic script file.
 
@@ -26,12 +28,12 @@ episodes/
     thumbnail.md        → YouTube thumbnail brief + Instagram reel cover brief
     x-post.md           → single tweet + 3-tweet thread
     production-guide.md → scene-by-scene visual direction, VO cues, music, captions
-    video/              → raw footage files
-    audio/              → raw audio if recorded separately
-    images/             → screenshots, thumbnail assets
+    video/              → raw footage (gitignored — put SD card dumps here)
+    audio/              → raw audio if recorded separately (gitignored)
+    images/             → screenshots and thumbnail source assets (tracked in git)
     export/
-      youtube.mp4       → full cut
-      instagram.mp4     → reel cut
+      youtube.mp4       → final YouTube cut (gitignored)
+      instagram.mp4     → final Reel cut (gitignored)
 _templates/             → reusable skill templates
 ```
 
