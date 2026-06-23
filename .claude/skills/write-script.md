@@ -5,9 +5,16 @@ Generate all four platform content files for one episode from raw notes.
 Outputs: youtube.md, instagram.md, thumbnail.md, x-post.md
 
 ## Input required
-- Episode topic
-- Raw notes or paste from notes.md
-- Episode number and where it sits in the series
+Read `notes.md` in the episode folder. It contains 7 required fields:
+1. **The moment** — the real scene the hook comes from
+2. **What I was building or trying** — episode context
+3. **The obstacle** — what broke, surprised, or stopped progress
+4. **The fix or decision** — what resolved it or was chosen
+5. **The lesson** — one sentence takeaway for a developer watching
+6. **The reel moment** — single insight that works standalone in 60s (becomes the Instagram Reel)
+7. **Next episode teaser** — one line on what's coming
+
+If notes.md is missing or fields are blank, stop and ask the user to fill it in. Do not invent story details.
 
 ## Output
 Save four files to: episodes/YYYY-MM-DD-[slug]/
@@ -22,6 +29,7 @@ mkdir -p episodes/YYYY-MM-DD-slug/audio
 mkdir -p episodes/YYYY-MM-DD-slug/images
 mkdir -p episodes/YYYY-MM-DD-slug/export
 touch episodes/YYYY-MM-DD-slug/images/.gitkeep
+cp _templates/notes.md episodes/YYYY-MM-DD-slug/notes.md
 ```
 
 Files to generate every run:
@@ -99,11 +107,13 @@ Format: YouTube (~10–12 min)
 ```
 
 ### Script body structure
-1. **Hook** — first 30 seconds, spoken version of the strongest YouTube hook
+1. **Hook** — first 30 seconds. Personal story opening from notes field 1 "The moment". Drop the viewer into a real scene.
 2. **Who this is for** — 15 seconds, direct address
-3. **Main content** — 3 to 5 clearly named sections with `**[SECTION N: Name]**` headers
-4. **Lesson / what I learned** — single key takeaway
-5. **CTA** — subscribe + tease next episode by name
+3. **Progress** — what you were building or trying (notes field 2). Sets up the stakes.
+4. **Obstacle** — what broke, surprised, or stopped you (notes field 3). This is the tension. Do not rush past it.
+5. **Fix or decision** — what resolved it or what you chose (notes field 4). Keep honest — include uncertainty if it was there.
+6. **Lesson** — one clear takeaway for a developer watching (notes field 5). One sentence, then expand briefly.
+7. **CTA** — "follow the journey" (not "subscribe") + tease next episode by name (notes field 7). No hard sell.
 
 Include production cues inline:
 - `**[CAMERA — description]**` for talking head moments
@@ -116,12 +126,13 @@ Include production cues inline:
 - Never start with "In this video..." or "Hey guys" or "Welcome back"
 - No question hooks — statements perform better for this niche
 - End with clear reason to keep watching
+- **Default to personal story opening** — drop viewer into the real scene from notes field 1
 
-### Hook formulas — rotate, pick strongest fit
-1. Contradiction: "Most developers think X. I did Y. Here is what happened."
-2. Stakes: "I had [time] to decide if this idea was worth building."
-3. Curiosity gap: "There was one thing nobody told me about building in public."
-4. Result first: "I shipped my first micro-SaaS feature using only AI. Here is the exact process."
+### Hook formulas — personal story opening is the recommended default
+1. **Personal story** *(recommended)*: Drop into a real moment. "I was sitting at my desk at 11pm. The error made no sense. I had been staring at it for two hours." Then pivot to what this video is about.
+2. Contradiction: "Most developers think X. I did Y. Here is what happened."
+3. Stakes: "I had [time] to decide if this idea was worth building."
+4. Curiosity gap: "There was one thing nobody told me about building in public."
 5. Mistake: "I made a mistake most solo developers make on day one. Here is how I caught it."
 
 ---
@@ -131,7 +142,7 @@ Include production cues inline:
 ```
 # Episode [N]: [Title] — Instagram
 Date: YYYY-MM-DD
-Format: Instagram Reel (45–90 sec cut)
+Format: Instagram Reel (45–60 sec, standalone)
 
 ---
 
@@ -148,27 +159,42 @@ Format: Instagram Reel (45–90 sec cut)
 
 ---
 
+## Reel Script
+
+> This is a fully standalone script. It does NOT summarise the YouTube video. It tells ONE story — the reel moment from notes field 6. Record this separately or clip the exact matching section from your talking-head footage.
+
+[Full spoken script — 45–60 seconds. Structure: hook line (spoken) → set the scene in one sentence → the one insight/obstacle/surprise → lesson in one sentence → CTA]
+
+**Estimated speaking time:** [X seconds]
+
+---
+
 ## Reel cut guide
 
-- **Clip:** [scene description — which moment from youtube.md, what's happening]
-- **Why this moment:** [one sentence — why this is the strongest standalone beat]
-- **Opening line on screen:** [text overlay, must match or derive directly from chosen hook]
-- **Reel structure:** [beat-by-beat: e.g. "hook overlay (3s) → talking head from Section 5 (~30s) → punchline overlay (2.5s) → CTA (~10s)"]
-- **Target length:** [45–90 seconds]
-- **CTA at end:** [spoken line — "Follow if you want to watch this in real time" for ep 1; "Full video linked in bio" for later episodes]
+- **Source:** [record fresh OR clip from YouTube section — specify which]
+- **The moment:** [which insight from notes field 6 this reel covers]
+- **Opening line on screen:** [text overlay matching chosen hook — must appear in first 2 seconds]
+- **Reel structure:** [beat-by-beat: e.g. "hook overlay (2s) → spoken hook (3s) → story (35s) → lesson (10s) → CTA (8s)"]
+- **Target length:** 45–60 seconds
+- **CTA at end:** [spoken — "Follow to watch this build in real time" or "Full story linked in bio"]
 ```
 
 ### Instagram hook rules
 - 3 variants, each a different approach
 - Max 15 words — must work as silent text overlay on first frame
 - No question hooks
-- Must make sense with zero context from the full video
+- Must make sense with zero context from the YouTube video
+
+### Reel script rules
+- Source: notes field 6 "The reel moment" — one insight, one story, start to finish
+- Never summarise the YouTube video — that is a trailer and gets skipped
+- Must work as a completely standalone piece of content
+- Same simple English rules as YouTube script — short sentences, easy to say
 
 ### Reel cut guide rules
-- Pick ONE moment only — the single most surprising or emotionally punchy beat
-- The clip must work without context from earlier in the video
-- Opening line on screen must match or directly derive from the Instagram hook
-- No chapter structure — one continuous narrative beat
+- One moment only — the single beat from notes field 6
+- No chapter structure — one continuous narrative
+- CTA never pushes a product — always "follow the journey" or "full story in bio"
 
 ---
 
