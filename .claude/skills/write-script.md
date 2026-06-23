@@ -14,6 +14,16 @@ Save four files to: episodes/YYYY-MM-DD-[slug]/
 Create the episode directory if it does not exist.
 Never output only to terminal — always write all four files.
 
+When creating a new episode directory, also scaffold all media subdirs so the folder is production-ready immediately:
+
+```bash
+mkdir -p episodes/YYYY-MM-DD-slug/video
+mkdir -p episodes/YYYY-MM-DD-slug/audio
+mkdir -p episodes/YYYY-MM-DD-slug/images
+mkdir -p episodes/YYYY-MM-DD-slug/export
+touch episodes/YYYY-MM-DD-slug/images/.gitkeep
+```
+
 Files to generate every run:
 1. youtube.md — spoken English script
 2. instagram.md — hooks + full reel script + reel cut guide
